@@ -92,6 +92,11 @@ main div p {
     text-align: left;
 }
 
+
+
+
+
+
 @keyframes nombre {
     0% {
         transform: rotate(0.1turn);
@@ -103,12 +108,38 @@ main div p {
     }
 }
 
-main div img {
+#solcito {
     height: 50vh;
     width: auto;
     margin: 0 auto;
     animation: nombre 2s alternate infinite;
 }
+
+
+
+@keyframes nana {
+    0% {
+        transform: rotate(40deg);
+        transform-origin: center center;
+    }
+    100% {
+        transform: rotate(19deg);
+        transform-origin: center center;
+    }
+}
+
+main img {
+    height: 50vh;
+    width: auto;
+    margin: 0 auto;
+    animation: 3s linear 1s infinite alternate nana;
+}
+
+
+
+
+
+
 
 
 @media (orientation: portrait) {
