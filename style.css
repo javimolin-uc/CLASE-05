@@ -75,7 +75,7 @@ main div {
     text-align: right;
 }
 
-main div p {
+main div p1 {
     background-image: url("images/temperature.svg");
     background-size: 1.5rem 3rem;
     background-repeat: no-repeat;
